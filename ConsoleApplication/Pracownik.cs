@@ -4,8 +4,17 @@ namespace EmptyProject
 {
     public class Pracownik
     {
+
+
+        #region Pola obiektowe
         private DateTime dataZatrudnienia;
         private UmowaTyp typUmowa;
+        private String imie;
+        private String nazwisko;
+
+        #endregion
+
+
 
 
         public Pracownik()

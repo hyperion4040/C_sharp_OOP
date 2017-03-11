@@ -14,5 +14,6 @@ namespace ConsoleApplication
             p1.setUmowaTyp(UmowaTyp.oPrace);
             Console.WriteLine("Pracownik ma nastepujacy rodzaj umowy " + p1.getUmowaTyp());
         }
+
     }
 }
