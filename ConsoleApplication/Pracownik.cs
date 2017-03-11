@@ -25,7 +25,7 @@ namespace EmptyProject
         {
             if (dataZatrudnienia.AddYears(3) >= DateTime.Now)
             {
-
+                    throw new Exception("Nie mozna tego zrobic");
             }
             else
             {
