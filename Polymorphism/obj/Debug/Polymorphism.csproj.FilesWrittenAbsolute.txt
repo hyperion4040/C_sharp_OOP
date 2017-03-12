@@ -1,0 +1,5 @@
+/home/hyperion/Dokumenty/Projects/RiderProjects/EmptyProject/Polymorphism/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/hyperion/Dokumenty/Projects/RiderProjects/EmptyProject/Polymorphism/bin/Debug/Polymorphism.exe.mdb
+/home/hyperion/Dokumenty/Projects/RiderProjects/EmptyProject/Polymorphism/bin/Debug/Polymorphism.exe
+/home/hyperion/Dokumenty/Projects/RiderProjects/EmptyProject/Polymorphism/obj/Debug/Polymorphism.exe
+/home/hyperion/Dokumenty/Projects/RiderProjects/EmptyProject/Polymorphism/obj/Debug/Polymorphism.exe.mdb
