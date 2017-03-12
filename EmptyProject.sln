@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication", "Conso
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polymorphism", "Polymorphism\Polymorphism.csproj", "{D039A7CE-4096-4D3D-90CB-804C623B69F1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Klasy", "Klasy\Klasy.csproj", "{5DDE43F2-285E-4EE6-81E4-A762D90BB5CB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{D039A7CE-4096-4D3D-90CB-804C623B69F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D039A7CE-4096-4D3D-90CB-804C623B69F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D039A7CE-4096-4D3D-90CB-804C623B69F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DDE43F2-285E-4EE6-81E4-A762D90BB5CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DDE43F2-285E-4EE6-81E4-A762D90BB5CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DDE43F2-285E-4EE6-81E4-A762D90BB5CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DDE43F2-285E-4EE6-81E4-A762D90BB5CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

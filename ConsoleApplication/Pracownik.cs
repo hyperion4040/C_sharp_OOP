@@ -4,9 +4,13 @@ namespace EmptyProject
 {
     public class Pracownik
     {
-
+        #region POLA STATYCZNE
+        static float dodatekWakacyjny = 1000;
+        #endregion POLA STATYCZNE
 
         #region Pola obiektowe
+
+        private long nrPracownika;
         private DateTime dataZatrudnienia;
         private UmowaTyp typUmowa;
         private String imie;

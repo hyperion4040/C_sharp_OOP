@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using EmptyProject;
 
 namespace ConsoleApplication
