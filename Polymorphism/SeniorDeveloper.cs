@@ -2,11 +2,13 @@
 
 namespace Polymorphism
 {
-    public class SeniorDeveloper : MidDeveloper
+    public abstract class SeniorDeveloper : MidDeveloper
     {
-        public  void f()
+        public override void f()
         {
             Console.WriteLine("Senior Developer");
         }
+
+        public abstract void d();
     }
 }

@@ -4,7 +4,7 @@ namespace Polymorphism
 {
     public class MidDeveloper : JuniorDeveloper
     {
-        public  override void f()
+        public new virtual void f()
         {
             Console.WriteLine("Mid Developer");
         }
