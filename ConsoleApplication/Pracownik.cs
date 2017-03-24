@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using ConsoleApplication;
 
 namespace EmptyProject
 {
@@ -15,7 +17,7 @@ namespace EmptyProject
         private UmowaTyp typUmowa;
         private String imie;
         private String nazwisko;
-
+        private List<Operacja> operacja;
         #endregion
 
 
