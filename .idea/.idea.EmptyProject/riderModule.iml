@@ -5,12 +5,15 @@
       <sourceFolder url="file://$MODULE_DIR$/../../ConsoleApplication" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../Klasy" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../Polymorphism" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../WSB" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/../../ConsoleApplication/bin" />
       <excludeFolder url="file://$MODULE_DIR$/../../ConsoleApplication/obj" />
       <excludeFolder url="file://$MODULE_DIR$/../../Klasy/bin" />
       <excludeFolder url="file://$MODULE_DIR$/../../Klasy/obj" />
       <excludeFolder url="file://$MODULE_DIR$/../../Polymorphism/bin" />
       <excludeFolder url="file://$MODULE_DIR$/../../Polymorphism/obj" />
+      <excludeFolder url="file://$MODULE_DIR$/../../WSB/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../WSB/obj" />
       <excludeFolder url="file://$MODULE_DIR$/../../packages" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />

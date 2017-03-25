@@ -1,4 +1,5 @@
-﻿namespace EmptyProject
+﻿namespace Firma.Pracownicy
+//ConsoleApplication
 {
     public enum UmowaTyp
     {

@@ -1,12 +1,12 @@
 ﻿using System;
 
-namespace ConsoleApplication
+namespace Firma.Finanse //ConsoleApplication
 {
     public class Operacja
     {
-        decimal kwota;
-        DateTime data;
-        string tytul;
-        bool rozliczneie;
+        public decimal kwota;
+        public DateTime data;
+        public string tytul;
+        public bool rozliczneie;
     }
 }

@@ -1,11 +1,11 @@
-﻿namespace ConsoleApplication
+﻿namespace Firma.Pracownicy.Finanse//ConsoleApplication
 
 {
-    public struct Wynagrodzenie
+     public struct Wynagrodzenie
     {
-        float zasadnicze;
-        float premia;
-        float dodStazowy;
-        float nadgodziny;
+        public float zasadnicze;
+        public float premia;
+        public float dodStazowy;
+        public float nadgodziny;
     }
 }
