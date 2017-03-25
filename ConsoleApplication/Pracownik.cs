@@ -1,16 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Globalization;
+using System.Linq;
 using ConsoleApplication;
 using Firma.Finanse;
 using Firma.Pracownicy.Finanse;
 
-namespace Firma.Pracownicy//Pracownicy.ConsoleApplication
+namespace Firma.Pracownicy //Pracownicy.ConsoleApplication
 {
     public class Pracownik
     {
         #region POLA STATYCZNE
+
         static float dodatekWakacyjny = 1000;
+
         #endregion POLA STATYCZNE
 
         #region Pola obiektowe
@@ -20,8 +23,9 @@ namespace Firma.Pracownicy//Pracownicy.ConsoleApplication
         private UmowaTyp typUmowa;
         public String imie;
         public String nazwisko;
-        private List<Operacja> operacja;
+        public List<Operacja> operacja;
         public Wynagrodzenie wynagrodzenie;
+
         #endregion
 
 
@@ -29,7 +33,7 @@ namespace Firma.Pracownicy//Pracownicy.ConsoleApplication
 
         public Pracownik()
         {
-            dataZatrudnienia = new DateTime(2012,3,11);
+            dataZatrudnienia = new DateTime(2012, 3, 11);
 //            typUmowa = UmowaTyp.kontrakt;
             typUmowa = UmowaTyp.oPrace;
         }
@@ -38,11 +42,13 @@ namespace Firma.Pracownicy//Pracownicy.ConsoleApplication
         {
             return this.dataZatrudnienia;
         }
+
         public string pobierzDataZatrudnienia(string kod) //GET "en-US"
         {
             var region = new CultureInfo(kod);
             return this.dataZatrudnienia.ToString(region.DateTimeFormat);
         }
+
         public void ustawDataZatrudnienia(DateTime nowaData) //SET
         {
             if (nowaData.DayOfWeek == DayOfWeek.Saturday || nowaData.DayOfWeek == DayOfWeek.Sunday)
@@ -61,7 +67,7 @@ namespace Firma.Pracownicy//Pracownicy.ConsoleApplication
         {
             if (typUmowa == UmowaTyp.oPrace && (DateTime.Now.AddYears(-3) <= this.dataZatrudnienia))
             {
-                    throw new Exception("Nie mozna tego zrobic");
+                throw new Exception("Nie mozna tego zrobic");
             }
             else
             {
@@ -74,9 +80,39 @@ namespace Firma.Pracownicy//Pracownicy.ConsoleApplication
             return typUmowa.ToString();
         }
 
+        #region metody
+
+        public decimal sumaNierozliczonychOperacji()
+        {
 
 
+//            foreach (var operacje in operacja)
+//            {
+//
+//            }
+
+            return operacja.Where(o => o.rozliczneie == false).Sum(o => o.kwota);
 
 
+        }
+
+
+        #endregion
+
+
+        public DateTime DataZatrudnienia
+        {
+            get { return this.dataZatrudnienia; }
+            set { this.ustawDataZatrudnienia(value); }
+        }
+
+
+        public UmowaTyp UmowaTyp
+        {
+            get { return this.typUmowa; }
+            set { this.setUmowaTyp(value); }
+
+
+        }
     }
 }

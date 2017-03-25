@@ -1,0 +1,7 @@
+/home/hyperion/Dokumenty/Projects/RiderProjects/EmptyProject/WSB/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/hyperion/Dokumenty/Projects/RiderProjects/EmptyProject/WSB/bin/Debug/WSB.exe.mdb
+/home/hyperion/Dokumenty/Projects/RiderProjects/EmptyProject/WSB/bin/Debug/WSB.exe
+/home/hyperion/Dokumenty/Projects/RiderProjects/EmptyProject/WSB/obj/Debug/WSB.exe
+/home/hyperion/Dokumenty/Projects/RiderProjects/EmptyProject/WSB/obj/Debug/WSB.exe.mdb
+/home/hyperion/Dokumenty/Projects/RiderProjects/EmptyProject/WSB/bin/Debug/ConsoleApplication.exe
+/home/hyperion/Dokumenty/Projects/RiderProjects/EmptyProject/WSB/bin/Debug/ConsoleApplication.exe.mdb
