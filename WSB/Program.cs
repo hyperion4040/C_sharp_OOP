@@ -35,13 +35,16 @@ namespace WSB
                 imie = "Arkadiusz",
                 nazwisko = "Milik",
                 DataZatrudnienia = DateTime.Now,
-                UmowaTyp = UmowaTyp.oPrace,
-                wynagrodzenie = new Wynagrodzenie()
+                UmowaTyp = UmowaTyp.kontrakt,
 
+                wynagrodzenie = new Wynagrodzenie()
                 {
-                    zasadnicze = 44444444444,
-                    premia = 500000
+                    Zasadnicze = 44444444444,
+                    Premia =  500000
                 },
+
+
+
                 operacja = new List<Operacja>()
                 {
                     new Operacja() {kwota = 4000, tytul = "laptop", rozliczneie = true},
@@ -52,8 +55,13 @@ namespace WSB
 
 
             };
+
+
+
+
             Console.WriteLine(pracownik2.sumaNierozliczonychOperacji());
             Console.WriteLine(pracownik2.DataZatrudnienia);
+
             #endregion
 
 
