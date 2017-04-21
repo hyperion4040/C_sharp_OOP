@@ -1,0 +1,5 @@
+/home/hyperion/Dokumenty/Projects/RiderProjects/EmptyProject/Egzaminacyjne/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/hyperion/Dokumenty/Projects/RiderProjects/EmptyProject/Egzaminacyjne/bin/Debug/Egzaminacyjne.exe.mdb
+/home/hyperion/Dokumenty/Projects/RiderProjects/EmptyProject/Egzaminacyjne/bin/Debug/Egzaminacyjne.exe
+/home/hyperion/Dokumenty/Projects/RiderProjects/EmptyProject/Egzaminacyjne/obj/Debug/Egzaminacyjne.exe
+/home/hyperion/Dokumenty/Projects/RiderProjects/EmptyProject/Egzaminacyjne/obj/Debug/Egzaminacyjne.exe.mdb
