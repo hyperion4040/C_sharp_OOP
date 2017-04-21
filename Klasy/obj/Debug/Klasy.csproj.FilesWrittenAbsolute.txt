@@ -1,5 +1,0 @@
-/home/hyperion/Dokumenty/Projects/RiderProjects/EmptyProject/Klasy/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
-/home/hyperion/Dokumenty/Projects/RiderProjects/EmptyProject/Klasy/bin/Debug/Klasy.exe.mdb
-/home/hyperion/Dokumenty/Projects/RiderProjects/EmptyProject/Klasy/bin/Debug/Klasy.exe
-/home/hyperion/Dokumenty/Projects/RiderProjects/EmptyProject/Klasy/obj/Debug/Klasy.exe
-/home/hyperion/Dokumenty/Projects/RiderProjects/EmptyProject/Klasy/obj/Debug/Klasy.exe.mdb
