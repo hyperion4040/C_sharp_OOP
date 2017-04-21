@@ -2,19 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f61a72cb-3855-4329-a72d-70e08b2bc97a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ConsoleApplication/bin/Debug/ConsoleApplication.exe" afterPath="$PROJECT_DIR$/ConsoleApplication/bin/Debug/ConsoleApplication.exe" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ConsoleApplication/bin/Debug/ConsoleApplication.exe.mdb" afterPath="$PROJECT_DIR$/ConsoleApplication/bin/Debug/ConsoleApplication.exe.mdb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ConsoleApplication/obj/Debug/ConsoleApplication.exe" afterPath="$PROJECT_DIR$/ConsoleApplication/obj/Debug/ConsoleApplication.exe" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ConsoleApplication/obj/Debug/ConsoleApplication.exe.mdb" afterPath="$PROJECT_DIR$/ConsoleApplication/obj/Debug/ConsoleApplication.exe.mdb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WSB/bin/Debug/ConsoleApplication.exe" afterPath="$PROJECT_DIR$/WSB/bin/Debug/ConsoleApplication.exe" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WSB/bin/Debug/ConsoleApplication.exe.mdb" afterPath="$PROJECT_DIR$/WSB/bin/Debug/ConsoleApplication.exe.mdb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WSB/bin/Debug/WSB.exe" afterPath="$PROJECT_DIR$/WSB/bin/Debug/WSB.exe" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WSB/bin/Debug/WSB.exe.mdb" afterPath="$PROJECT_DIR$/WSB/bin/Debug/WSB.exe.mdb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WSB/obj/Debug/WSB.exe" afterPath="$PROJECT_DIR$/WSB/obj/Debug/WSB.exe" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WSB/obj/Debug/WSB.exe.mdb" afterPath="$PROJECT_DIR$/WSB/obj/Debug/WSB.exe.mdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BookStore/bin/Debug/BookStore.dll" afterPath="$PROJECT_DIR$/BookStore/bin/Debug/BookStore.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BookStore/bin/Debug/BookStore.dll.mdb" afterPath="$PROJECT_DIR$/BookStore/bin/Debug/BookStore.dll.mdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BookStore/obj/Debug/BookStore.dll" afterPath="$PROJECT_DIR$/BookStore/obj/Debug/BookStore.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BookStore/obj/Debug/BookStore.dll.mdb" afterPath="$PROJECT_DIR$/BookStore/obj/Debug/BookStore.dll.mdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BookStoreMain/bin/Debug/BookStore.dll" afterPath="$PROJECT_DIR$/BookStoreMain/bin/Debug/BookStore.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BookStoreMain/bin/Debug/BookStore.dll.mdb" afterPath="$PROJECT_DIR$/BookStoreMain/bin/Debug/BookStore.dll.mdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BookStoreMain/bin/Debug/BookStoreMain.exe" afterPath="$PROJECT_DIR$/BookStoreMain/bin/Debug/BookStoreMain.exe" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BookStoreMain/bin/Debug/BookStoreMain.exe.mdb" afterPath="$PROJECT_DIR$/BookStoreMain/bin/Debug/BookStoreMain.exe.mdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BookStoreMain/obj/Debug/BookStoreMain.exe" afterPath="$PROJECT_DIR$/BookStoreMain/obj/Debug/BookStoreMain.exe" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BookStoreMain/obj/Debug/BookStoreMain.exe.mdb" afterPath="$PROJECT_DIR$/BookStoreMain/obj/Debug/BookStoreMain.exe.mdb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.EmptyProject/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.EmptyProject/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.EmptyProject/riderModule.iml" afterPath="$PROJECT_DIR$/.idea/.idea.EmptyProject/riderModule.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EmptyProject.sln" afterPath="$PROJECT_DIR$/EmptyProject.sln" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BookStore/Book.cs" afterPath="$PROJECT_DIR$/BookStore/Book.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BookStoreMain/Program.cs" afterPath="$PROJECT_DIR$/BookStoreMain/Program.cs" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -47,38 +47,43 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/BookStoreMain/Program.cs">
+      <file leaf-file-name="Book.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BookStore/Book.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="14" column="57" lean-forward="false" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
+            <state relative-caret-position="1620">
+              <caret line="81" column="52" lean-forward="false" selection-start-line="81" selection-start-column="52" selection-end-line="81" selection-end-column="52" />
               <folding>
-                <marker date="1492807087986" expanded="true" signature="6:64" ph="..." />
-                <marker date="1492807087986" expanded="true" signature="89:540" ph="{...}" />
-                <marker date="1492807087986" expanded="true" signature="118:538" ph="{...}" />
-                <marker date="1492807087986" expanded="true" signature="171:532" ph="{...}" />
+                <marker date="1492812787200" expanded="true" signature="36:2068" ph="{...}" />
+                <marker date="1492812787200" expanded="true" signature="62:2066" ph="{...}" />
+                <marker date="1492812787200" expanded="true" signature="400:505" ph="{...}" />
+                <marker date="1492812787200" expanded="true" signature="534:623" ph="{...}" />
+                <marker date="1492812787200" expanded="true" signature="653:744" ph="{...}" />
+                <marker date="1492812787200" expanded="true" signature="778:1094" ph="{...}" />
+                <marker date="1492812787200" expanded="true" signature="846:1084" ph="{...}" />
+                <marker date="1492812787200" expanded="true" signature="951:1070" ph="{...}" />
+                <marker date="1492812787200" expanded="true" signature="1181:1363" ph="{...}" />
+                <marker date="1492812787200" expanded="true" signature="1423:1533" ph="{...}" />
+                <marker date="1492812787200" expanded="true" signature="1569:1639" ph="{...}" />
+                <marker date="1492812787200" expanded="true" signature="1690:1928" ph="{...}" />
+                <marker date="1492812787200" expanded="true" signature="1756:1820" ph="{...}" />
+                <marker date="1492812787200" expanded="true" signature="1837:1918" ph="{...}" />
+                <marker date="1492812787200" expanded="true" signature="1966:2059" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Book.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BookStore/Book.cs">
+      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BookStoreMain/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="65" column="49" lean-forward="false" selection-start-line="65" selection-start-column="49" selection-end-line="65" selection-end-column="49" />
+            <state relative-caret-position="360">
+              <caret line="18" column="67" lean-forward="false" selection-start-line="18" selection-start-column="67" selection-end-line="18" selection-end-column="67" />
               <folding>
-                <marker date="1492807070906" expanded="true" signature="132:1576" ph="{...}" />
-                <marker date="1492807070906" expanded="true" signature="158:1574" ph="{...}" />
-                <marker date="1492807070906" expanded="true" signature="329:434" ph="{...}" />
-                <marker date="1492807070906" expanded="true" signature="463:552" ph="{...}" />
-                <marker date="1492807070906" expanded="true" signature="582:673" ph="{...}" />
-                <marker date="1492807070906" expanded="true" signature="707:1023" ph="{...}" />
-                <marker date="1492807070906" expanded="true" signature="775:1013" ph="{...}" />
-                <marker date="1492807070906" expanded="true" signature="880:999" ph="{...}" />
-                <marker date="1492807070906" expanded="true" signature="1110:1292" ph="{...}" />
-                <marker date="1492807070906" expanded="true" signature="1352:1462" ph="{...}" />
-                <marker date="1492807070906" expanded="true" signature="1498:1568" ph="{...}" />
+                <marker date="1492812738128" expanded="true" signature="6:64" ph="..." />
+                <marker date="1492812738128" expanded="true" signature="89:782" ph="{...}" />
+                <marker date="1492812738128" expanded="true" signature="118:780" ph="{...}" />
+                <marker date="1492812738128" expanded="true" signature="171:774" ph="{...}" />
+                <marker date="1492812738128" expanded="true" signature="182:552" ph="/* Book book = new Book(&quot;Tolkien&quot;,&quot;Hobbit&quot;,12,1250); ... */" />
               </folding>
             </state>
           </provider>
@@ -122,8 +127,8 @@
         <option value="$PROJECT_DIR$/Egzaminacyjne/Program.cs" />
         <option value="$PROJECT_DIR$/BookStore/Class1.cs" />
         <option value="$PROJECT_DIR$/BookStore/Program.cs" />
-        <option value="$PROJECT_DIR$/BookStore/Book.cs" />
         <option value="$PROJECT_DIR$/BookStoreMain/Program.cs" />
+        <option value="$PROJECT_DIR$/BookStore/Book.cs" />
       </list>
     </option>
   </component>
@@ -161,7 +166,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="SolutionExplorer">
         <subPane>
           <PATH>
@@ -174,38 +178,11 @@
               <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EmptyProject (5 projects)" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BookStoreMain" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EmptyProject (5 projects)" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BookStore" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
         <option name="show-file-system" value="false" />
         <option name="show-all-items" value="false" />
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -407,7 +384,8 @@
       <workItem from="1492541014122" duration="5128000" />
       <workItem from="1492702370016" duration="13000" />
       <workItem from="1492702541620" duration="75000" />
-      <workItem from="1492799004920" duration="5523000" />
+      <workItem from="1492799004920" duration="6596000" />
+      <workItem from="1492810827003" duration="1787000" />
     </task>
     <task id="LOCAL-00001" summary="Added a throw new exception.">
       <created>1489268063395</created>
@@ -490,7 +468,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42358000" />
+    <option name="totallyTimeSpent" value="45218000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -514,8 +492,8 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Change Signature" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25418326" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884902" sideWeight="0.49730977" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25816733" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32817337" sideWeight="0.49730977" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -562,20 +540,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Klasy/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="25" column="56" lean-forward="false" selection-start-line="25" selection-start-column="56" selection-end-line="25" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Klasy/Punkt.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="112" lean-forward="false" selection-start-line="22" selection-start-column="112" selection-end-line="22" selection-end-column="112" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Klasy/Program.cs" />
+    <entry file="file://$PROJECT_DIR$/Klasy/Punkt.cs" />
     <entry file="file://$PROJECT_DIR$/ConsoleApplication/Pracownik.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="936">
@@ -583,20 +549,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Klasy/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="25" column="56" lean-forward="false" selection-start-line="25" selection-start-column="56" selection-end-line="25" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Klasy/Punkt.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="112" lean-forward="false" selection-start-line="22" selection-start-column="112" selection-end-line="22" selection-end-column="112" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Klasy/Program.cs" />
+    <entry file="file://$PROJECT_DIR$/Klasy/Punkt.cs" />
     <entry file="file://$PROJECT_DIR$/ConsoleApplication/Pracownik.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="936">
@@ -780,13 +734,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Klasy/Properties/Lion.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Klasy/Properties/Lion.cs" />
     <entry file="file://$PROJECT_DIR$/ConsoleApplication/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="98">
@@ -794,41 +742,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Student/Class1.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Klasy/Animal.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Klasy/Punkt.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="22" column="112" lean-forward="false" selection-start-line="22" selection-start-column="112" selection-end-line="22" selection-end-column="112" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Klasy/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="32" column="24" lean-forward="false" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Zoo/Animal.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Student/Class1.cs" />
+    <entry file="file://$PROJECT_DIR$/Klasy/Animal.cs" />
+    <entry file="file://$PROJECT_DIR$/Klasy/Punkt.cs" />
+    <entry file="file://$PROJECT_DIR$/Klasy/Program.cs" />
+    <entry file="file://$PROJECT_DIR$/Zoo/Animal.cs" />
     <entry file="file://$PROJECT_DIR$/ConsoleApplication/Operacja.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -864,23 +782,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Egzaminacyjne/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="35" column="68" lean-forward="true" selection-start-line="35" selection-start-column="68" selection-end-line="35" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Egzaminacyjne/Program.cs" />
     <entry file="file://$PROJECT_DIR$/WSB/Properties/AssemblyInfo.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1490464947136" expanded="false" signature="6:101" ph="..." />
-            <marker date="1490464947136" expanded="true" signature="103:290" ph="/* General Information about an assembly is controlled through the following ... */" />
-            <marker date="1490464947136" expanded="true" signature="584:794" ph="/* Setting ComVisible to false makes the types in this assembly not visible ... */" />
-            <marker date="1490464947136" expanded="true" signature="971:1298" ph="/* Version information for an assembly consists of the following four values: ... */" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -903,43 +809,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BookStore/Program.cs">
+    <entry file="file://$PROJECT_DIR$/BookStore/Program.cs" />
+    <entry file="file://$PROJECT_DIR$/BookStoreMain/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="28" lean-forward="false" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-          <folding />
+        <state relative-caret-position="360">
+          <caret line="18" column="67" lean-forward="false" selection-start-line="18" selection-start-column="67" selection-end-line="18" selection-end-column="67" />
+          <folding>
+            <marker date="1492812738128" expanded="true" signature="6:64" ph="..." />
+            <marker date="1492812738128" expanded="true" signature="89:782" ph="{...}" />
+            <marker date="1492812738128" expanded="true" signature="118:780" ph="{...}" />
+            <marker date="1492812738128" expanded="true" signature="171:774" ph="{...}" />
+            <marker date="1492812738128" expanded="true" signature="182:552" ph="/* Book book = new Book(&quot;Tolkien&quot;,&quot;Hobbit&quot;,12,1250); ... */" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BookStore/Book.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="65" column="49" lean-forward="false" selection-start-line="65" selection-start-column="49" selection-end-line="65" selection-end-column="49" />
+        <state relative-caret-position="1620">
+          <caret line="81" column="52" lean-forward="false" selection-start-line="81" selection-start-column="52" selection-end-line="81" selection-end-column="52" />
           <folding>
-            <marker date="1492807070906" expanded="true" signature="132:1576" ph="{...}" />
-            <marker date="1492807070906" expanded="true" signature="158:1574" ph="{...}" />
-            <marker date="1492807070906" expanded="true" signature="329:434" ph="{...}" />
-            <marker date="1492807070906" expanded="true" signature="463:552" ph="{...}" />
-            <marker date="1492807070906" expanded="true" signature="582:673" ph="{...}" />
-            <marker date="1492807070906" expanded="true" signature="707:1023" ph="{...}" />
-            <marker date="1492807070906" expanded="true" signature="775:1013" ph="{...}" />
-            <marker date="1492807070906" expanded="true" signature="880:999" ph="{...}" />
-            <marker date="1492807070906" expanded="true" signature="1110:1292" ph="{...}" />
-            <marker date="1492807070906" expanded="true" signature="1352:1462" ph="{...}" />
-            <marker date="1492807070906" expanded="true" signature="1498:1568" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BookStoreMain/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="57" lean-forward="false" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
-          <folding>
-            <marker date="1492807087986" expanded="true" signature="6:64" ph="..." />
-            <marker date="1492807087986" expanded="true" signature="89:540" ph="{...}" />
-            <marker date="1492807087986" expanded="true" signature="118:538" ph="{...}" />
-            <marker date="1492807087986" expanded="true" signature="171:532" ph="{...}" />
+            <marker date="1492812787200" expanded="true" signature="36:2068" ph="{...}" />
+            <marker date="1492812787200" expanded="true" signature="62:2066" ph="{...}" />
+            <marker date="1492812787200" expanded="true" signature="400:505" ph="{...}" />
+            <marker date="1492812787200" expanded="true" signature="534:623" ph="{...}" />
+            <marker date="1492812787200" expanded="true" signature="653:744" ph="{...}" />
+            <marker date="1492812787200" expanded="true" signature="778:1094" ph="{...}" />
+            <marker date="1492812787200" expanded="true" signature="846:1084" ph="{...}" />
+            <marker date="1492812787200" expanded="true" signature="951:1070" ph="{...}" />
+            <marker date="1492812787200" expanded="true" signature="1181:1363" ph="{...}" />
+            <marker date="1492812787200" expanded="true" signature="1423:1533" ph="{...}" />
+            <marker date="1492812787200" expanded="true" signature="1569:1639" ph="{...}" />
+            <marker date="1492812787200" expanded="true" signature="1690:1928" ph="{...}" />
+            <marker date="1492812787200" expanded="true" signature="1756:1820" ph="{...}" />
+            <marker date="1492812787200" expanded="true" signature="1837:1918" ph="{...}" />
+            <marker date="1492812787200" expanded="true" signature="1966:2059" ph="{...}" />
           </folding>
         </state>
       </provider>

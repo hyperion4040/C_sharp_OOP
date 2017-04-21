@@ -1,8 +1,6 @@
 ﻿using System;
 
-public delegate void bookDelegate(string message);
 
-public delegate String bookDelegateSecond();
 
 namespace BookStore
 {
@@ -10,6 +8,13 @@ namespace BookStore
 
     public class Book
     {
+        public delegate void bookDelegate(string message);
+
+        public delegate String bookDelegateSecond();
+
+        public event bookDelegateSecond bookEvent;
+
+
         private string title;
         private string author;
         private int numberOfBooks;
@@ -65,5 +70,23 @@ namespace BookStore
         {
             return "This book title is " + title;
         }
+
+        public string numberOfPagesLessThanZero()
+        {
+            if (numberOfPages < 0 && bookEvent != null)
+            {
+                return bookEvent();
+            }
+            else
+            {
+                return "Number of book pages is ok";
+            }
+        }
+
+        public string eventMessage()
+        {
+            return "Book can't have less than 0 pages. Info from event";
+        }
+
     }
 }
