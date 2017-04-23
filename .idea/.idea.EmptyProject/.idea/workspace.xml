@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f61a72cb-3855-4329-a72d-70e08b2bc97a" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BookStore/FantasyBook.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BookStore/HighFantasyBook.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BookStore/IBook.cs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BookStore/bin/Debug/BookStore.dll" afterPath="$PROJECT_DIR$/BookStore/bin/Debug/BookStore.dll" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BookStore/bin/Debug/BookStore.dll.mdb" afterPath="$PROJECT_DIR$/BookStore/bin/Debug/BookStore.dll.mdb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BookStore/obj/Debug/BookStore.dll" afterPath="$PROJECT_DIR$/BookStore/obj/Debug/BookStore.dll" />
@@ -14,6 +17,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BookStoreMain/obj/Debug/BookStoreMain.exe.mdb" afterPath="$PROJECT_DIR$/BookStoreMain/obj/Debug/BookStoreMain.exe.mdb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.EmptyProject/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.EmptyProject/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BookStore/Book.cs" afterPath="$PROJECT_DIR$/BookStore/Book.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BookStore/BookStore.csproj" afterPath="$PROJECT_DIR$/BookStore/BookStore.csproj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BookStoreMain/Program.cs" afterPath="$PROJECT_DIR$/BookStoreMain/Program.cs" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,7 +37,6 @@
               <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="11" selection-end-column="9" />
               <folding>
                 <marker date="1492545477112" expanded="true" signature="6:124" ph="..." />
-                <marker date="1492545477112" expanded="true" signature="139:1968" ph="{...}" />
                 <marker date="1492545477112" expanded="true" signature="168:1966" ph="{...}" />
                 <marker date="1492545477112" expanded="true" signature="221:1960" ph="{...}" />
                 <marker date="1492545477112" expanded="true" signature="244:960" ph="utworzenieObiektu do .NET 2.0" />
@@ -47,27 +50,69 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Book.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Book.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BookStore/Book.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1620">
-              <caret line="81" column="52" lean-forward="false" selection-start-line="81" selection-start-column="52" selection-end-line="81" selection-end-column="52" />
+            <state relative-caret-position="227">
+              <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
               <folding>
-                <marker date="1492812787200" expanded="true" signature="36:2068" ph="{...}" />
-                <marker date="1492812787200" expanded="true" signature="62:2066" ph="{...}" />
-                <marker date="1492812787200" expanded="true" signature="400:505" ph="{...}" />
-                <marker date="1492812787200" expanded="true" signature="534:623" ph="{...}" />
-                <marker date="1492812787200" expanded="true" signature="653:744" ph="{...}" />
-                <marker date="1492812787200" expanded="true" signature="778:1094" ph="{...}" />
-                <marker date="1492812787200" expanded="true" signature="846:1084" ph="{...}" />
-                <marker date="1492812787200" expanded="true" signature="951:1070" ph="{...}" />
-                <marker date="1492812787200" expanded="true" signature="1181:1363" ph="{...}" />
-                <marker date="1492812787200" expanded="true" signature="1423:1533" ph="{...}" />
-                <marker date="1492812787200" expanded="true" signature="1569:1639" ph="{...}" />
-                <marker date="1492812787200" expanded="true" signature="1690:1928" ph="{...}" />
-                <marker date="1492812787200" expanded="true" signature="1756:1820" ph="{...}" />
-                <marker date="1492812787200" expanded="true" signature="1837:1918" ph="{...}" />
-                <marker date="1492812787200" expanded="true" signature="1966:2059" ph="{...}" />
+                <marker date="1492983502350" expanded="true" signature="36:2123" ph="{...}" />
+                <marker date="1492983502350" expanded="true" signature="70:2121" ph="{...}" />
+                <marker date="1492983502350" expanded="true" signature="408:513" ph="{...}" />
+                <marker date="1492983502350" expanded="true" signature="542:631" ph="{...}" />
+                <marker date="1492983502350" expanded="true" signature="661:752" ph="{...}" />
+                <marker date="1492983502350" expanded="true" signature="786:1102" ph="{...}" />
+                <marker date="1492983502350" expanded="true" signature="854:1092" ph="{...}" />
+                <marker date="1492983502350" expanded="true" signature="959:1078" ph="{...}" />
+                <marker date="1492983502350" expanded="true" signature="1189:1371" ph="{...}" />
+                <marker date="1492983502350" expanded="true" signature="1397:1418" ph="{...}" />
+                <marker date="1492983502350" expanded="true" signature="1478:1588" ph="{...}" />
+                <marker date="1492983502350" expanded="true" signature="1624:1694" ph="{...}" />
+                <marker date="1492983502350" expanded="true" signature="1745:1983" ph="{...}" />
+                <marker date="1492983502350" expanded="true" signature="1811:1875" ph="{...}" />
+                <marker date="1492983502350" expanded="true" signature="1892:1973" ph="{...}" />
+                <marker date="1492983502350" expanded="true" signature="2021:2114" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FantasyBook.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BookStore/FantasyBook.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="18" column="8" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+              <folding>
+                <marker date="1492983832228" expanded="true" signature="39:484" ph="{...}" />
+                <marker date="1492983832228" expanded="true" signature="77:482" ph="{...}" />
+                <marker date="1492983832228" expanded="true" signature="229:411" ph="{...}" />
+                <marker date="1492983832228" expanded="true" signature="444:464" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HighFantasyBook.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BookStore/HighFantasyBook.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding>
+                <marker date="1492983502358" expanded="true" signature="19:83" ph="{...}" />
+                <marker date="1492983502358" expanded="true" signature="68:81" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IBook.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BookStore/IBook.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding>
+                <marker date="1492982709595" expanded="true" signature="19:222" ph="{...}" />
+                <marker date="1492982709595" expanded="true" signature="48:220" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -76,14 +121,14 @@
       <file leaf-file-name="Program.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BookStoreMain/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="18" column="67" lean-forward="false" selection-start-line="18" selection-start-column="67" selection-end-line="18" selection-end-column="67" />
+            <state relative-caret-position="200">
+              <caret line="16" column="58" lean-forward="false" selection-start-line="16" selection-start-column="58" selection-end-line="16" selection-end-column="58" />
               <folding>
-                <marker date="1492812738128" expanded="true" signature="6:64" ph="..." />
-                <marker date="1492812738128" expanded="true" signature="89:782" ph="{...}" />
-                <marker date="1492812738128" expanded="true" signature="118:780" ph="{...}" />
-                <marker date="1492812738128" expanded="true" signature="171:774" ph="{...}" />
-                <marker date="1492812738128" expanded="true" signature="182:552" ph="/* Book book = new Book(&quot;Tolkien&quot;,&quot;Hobbit&quot;,12,1250); ... */" />
+                <marker date="1492982709587" expanded="true" signature="6:64" ph="..." />
+                <marker date="1492982709587" expanded="true" signature="89:781" ph="{...}" />
+                <marker date="1492982709587" expanded="true" signature="118:779" ph="{...}" />
+                <marker date="1492982709587" expanded="true" signature="171:773" ph="{...}" />
+                <marker date="1492982709587" expanded="true" signature="182:552" ph="/* Book book = new Book(&quot;Tolkien&quot;,&quot;Hobbit&quot;,12,1250); ... */" />
               </folding>
             </state>
           </provider>
@@ -127,8 +172,11 @@
         <option value="$PROJECT_DIR$/Egzaminacyjne/Program.cs" />
         <option value="$PROJECT_DIR$/BookStore/Class1.cs" />
         <option value="$PROJECT_DIR$/BookStore/Program.cs" />
+        <option value="$PROJECT_DIR$/BookStore/IBook.cs" />
         <option value="$PROJECT_DIR$/BookStoreMain/Program.cs" />
         <option value="$PROJECT_DIR$/BookStore/Book.cs" />
+        <option value="$PROJECT_DIR$/BookStore/HighFantasyBook.cs" />
+        <option value="$PROJECT_DIR$/BookStore/FantasyBook.cs" />
       </list>
     </option>
   </component>
@@ -166,6 +214,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="SolutionExplorer">
         <subPane>
           <PATH>
@@ -178,11 +227,24 @@
               <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EmptyProject (5 projects)" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BookStore" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
         <option name="show-file-system" value="false" />
         <option name="show-all-items" value="false" />
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -385,7 +447,8 @@
       <workItem from="1492702370016" duration="13000" />
       <workItem from="1492702541620" duration="75000" />
       <workItem from="1492799004920" duration="6596000" />
-      <workItem from="1492810827003" duration="1787000" />
+      <workItem from="1492810827003" duration="1818000" />
+      <workItem from="1492982429383" duration="1403000" />
     </task>
     <task id="LOCAL-00001" summary="Added a throw new exception.">
       <created>1489268063395</created>
@@ -464,11 +527,18 @@
       <option name="project" value="LOCAL" />
       <updated>1492545529574</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Added delegates and events">
+      <created>1492812820675</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1492812820675</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45218000" />
+    <option name="totallyTimeSpent" value="46652000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -488,11 +558,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884902" sideWeight="0.5119139" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884902" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32817337" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32817337" sideWeight="0.48808607" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32817337" sideWeight="0.48808607" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Change Signature" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25816733" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2621514" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32817337" sideWeight="0.49730977" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -526,22 +596,14 @@
     <MESSAGE value="New features" />
     <MESSAGE value="New features and starter class" />
     <MESSAGE value="Added accessors to struct" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added accessors to struct" />
+    <MESSAGE value="Added delegates and events" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added delegates and events" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ConsoleApplication/Pracownik.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="936">
-          <caret line="52" column="39" lean-forward="false" selection-start-line="52" selection-start-column="39" selection-end-line="52" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Klasy/Program.cs" />
-    <entry file="file://$PROJECT_DIR$/Klasy/Punkt.cs" />
     <entry file="file://$PROJECT_DIR$/ConsoleApplication/Pracownik.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="936">
@@ -796,7 +858,6 @@
           <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="11" selection-end-column="9" />
           <folding>
             <marker date="1492545477112" expanded="true" signature="6:124" ph="..." />
-            <marker date="1492545477112" expanded="true" signature="139:1968" ph="{...}" />
             <marker date="1492545477112" expanded="true" signature="168:1966" ph="{...}" />
             <marker date="1492545477112" expanded="true" signature="221:1960" ph="{...}" />
             <marker date="1492545477112" expanded="true" signature="244:960" ph="utworzenieObiektu do .NET 2.0" />
@@ -812,38 +873,74 @@
     <entry file="file://$PROJECT_DIR$/BookStore/Program.cs" />
     <entry file="file://$PROJECT_DIR$/BookStoreMain/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="18" column="67" lean-forward="false" selection-start-line="18" selection-start-column="67" selection-end-line="18" selection-end-column="67" />
+        <state relative-caret-position="200">
+          <caret line="16" column="58" lean-forward="false" selection-start-line="16" selection-start-column="58" selection-end-line="16" selection-end-column="58" />
           <folding>
-            <marker date="1492812738128" expanded="true" signature="6:64" ph="..." />
-            <marker date="1492812738128" expanded="true" signature="89:782" ph="{...}" />
-            <marker date="1492812738128" expanded="true" signature="118:780" ph="{...}" />
-            <marker date="1492812738128" expanded="true" signature="171:774" ph="{...}" />
-            <marker date="1492812738128" expanded="true" signature="182:552" ph="/* Book book = new Book(&quot;Tolkien&quot;,&quot;Hobbit&quot;,12,1250); ... */" />
+            <marker date="1492982709587" expanded="true" signature="6:64" ph="..." />
+            <marker date="1492982709587" expanded="true" signature="89:781" ph="{...}" />
+            <marker date="1492982709587" expanded="true" signature="118:779" ph="{...}" />
+            <marker date="1492982709587" expanded="true" signature="171:773" ph="{...}" />
+            <marker date="1492982709587" expanded="true" signature="182:552" ph="/* Book book = new Book(&quot;Tolkien&quot;,&quot;Hobbit&quot;,12,1250); ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BookStore/IBook.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <marker date="1492982709595" expanded="true" signature="19:222" ph="{...}" />
+            <marker date="1492982709595" expanded="true" signature="48:220" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BookStore/Book.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1620">
-          <caret line="81" column="52" lean-forward="false" selection-start-line="81" selection-start-column="52" selection-end-line="81" selection-end-column="52" />
+        <state relative-caret-position="227">
+          <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
           <folding>
-            <marker date="1492812787200" expanded="true" signature="36:2068" ph="{...}" />
-            <marker date="1492812787200" expanded="true" signature="62:2066" ph="{...}" />
-            <marker date="1492812787200" expanded="true" signature="400:505" ph="{...}" />
-            <marker date="1492812787200" expanded="true" signature="534:623" ph="{...}" />
-            <marker date="1492812787200" expanded="true" signature="653:744" ph="{...}" />
-            <marker date="1492812787200" expanded="true" signature="778:1094" ph="{...}" />
-            <marker date="1492812787200" expanded="true" signature="846:1084" ph="{...}" />
-            <marker date="1492812787200" expanded="true" signature="951:1070" ph="{...}" />
-            <marker date="1492812787200" expanded="true" signature="1181:1363" ph="{...}" />
-            <marker date="1492812787200" expanded="true" signature="1423:1533" ph="{...}" />
-            <marker date="1492812787200" expanded="true" signature="1569:1639" ph="{...}" />
-            <marker date="1492812787200" expanded="true" signature="1690:1928" ph="{...}" />
-            <marker date="1492812787200" expanded="true" signature="1756:1820" ph="{...}" />
-            <marker date="1492812787200" expanded="true" signature="1837:1918" ph="{...}" />
-            <marker date="1492812787200" expanded="true" signature="1966:2059" ph="{...}" />
+            <marker date="1492983502350" expanded="true" signature="36:2123" ph="{...}" />
+            <marker date="1492983502350" expanded="true" signature="70:2121" ph="{...}" />
+            <marker date="1492983502350" expanded="true" signature="408:513" ph="{...}" />
+            <marker date="1492983502350" expanded="true" signature="542:631" ph="{...}" />
+            <marker date="1492983502350" expanded="true" signature="661:752" ph="{...}" />
+            <marker date="1492983502350" expanded="true" signature="786:1102" ph="{...}" />
+            <marker date="1492983502350" expanded="true" signature="854:1092" ph="{...}" />
+            <marker date="1492983502350" expanded="true" signature="959:1078" ph="{...}" />
+            <marker date="1492983502350" expanded="true" signature="1189:1371" ph="{...}" />
+            <marker date="1492983502350" expanded="true" signature="1397:1418" ph="{...}" />
+            <marker date="1492983502350" expanded="true" signature="1478:1588" ph="{...}" />
+            <marker date="1492983502350" expanded="true" signature="1624:1694" ph="{...}" />
+            <marker date="1492983502350" expanded="true" signature="1745:1983" ph="{...}" />
+            <marker date="1492983502350" expanded="true" signature="1811:1875" ph="{...}" />
+            <marker date="1492983502350" expanded="true" signature="1892:1973" ph="{...}" />
+            <marker date="1492983502350" expanded="true" signature="2021:2114" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BookStore/HighFantasyBook.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding>
+            <marker date="1492983502358" expanded="true" signature="19:83" ph="{...}" />
+            <marker date="1492983502358" expanded="true" signature="68:81" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BookStore/FantasyBook.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="18" column="8" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+          <folding>
+            <marker date="1492983832228" expanded="true" signature="39:484" ph="{...}" />
+            <marker date="1492983832228" expanded="true" signature="77:482" ph="{...}" />
+            <marker date="1492983832228" expanded="true" signature="229:411" ph="{...}" />
+            <marker date="1492983832228" expanded="true" signature="444:464" ph="{...}" />
           </folding>
         </state>
       </provider>

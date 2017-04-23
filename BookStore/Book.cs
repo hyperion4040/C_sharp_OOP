@@ -6,7 +6,7 @@ namespace BookStore
 {
 
 
-    public class Book
+    public class Book : IBook
     {
         public delegate void bookDelegate(string message);
 
@@ -58,6 +58,11 @@ namespace BookStore
             this.author = author;
             this.numberOfBooks = numberOfBooks;
             this.numberOfPages = numberOfPages;
+        }
+
+        protected Book()
+        {
+
         }
 
         public void countSumOfPagesOfAllBooks(string name)

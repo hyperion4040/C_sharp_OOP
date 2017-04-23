@@ -14,7 +14,7 @@ namespace BookStoreMain
 //            Book.bookDelegateSecond bookDelegateSecond = new Book.bookDelegateSecond(book.nameOfBook);
 //            Console.WriteLine(bookDelegateSecond.Invoke());
 
-            Book bookEv = new Book("Tolkien","Lotr",2,-20);
+            Book bookEv = new Book("Tolkien","Lotr",2,20);
             bookEv.bookEvent += new Book.bookDelegateSecond(bookEv.eventMessage);
              Console.WriteLine(bookEv.numberOfPagesLessThanZero());
 
