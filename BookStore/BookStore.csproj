@@ -40,6 +40,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Book.cs" />
+    <Compile Include="BookType.cs" />
     <Compile Include="FantasyBook.cs" />
     <Compile Include="HighFantasyBook.cs" />
     <Compile Include="IBook.cs" />

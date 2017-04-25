@@ -8,6 +8,8 @@ namespace BookStore
 
     public class Book : IBook
     {
+
+        #region Fields
         public delegate void bookDelegate(string message);
 
         public delegate String bookDelegateSecond();
@@ -19,7 +21,13 @@ namespace BookStore
         private string author;
         private int numberOfBooks;
         private int numberOfPages;
+        private BookType bookType;
 
+
+
+        #endregion
+
+        #region Accesors
         public int NumberOfPages
         {
             get { return numberOfPages; }
@@ -44,20 +52,29 @@ namespace BookStore
             set
             {
                 if(value > -1)
-                numberOfBooks = value;
+                    numberOfBooks = value;
                 else
                 {
                     throw new Exception("Number of book can't be smaller than 0");
                 }
             }
         }
+        public BookType BookType
+        {
+            get { return bookType; }
+            set { bookType = value; }
+        }
 
-        public Book(string title, string author, int numberOfBooks,int numberOfPages)
+        #endregion
+
+        #region Constructors
+        public Book(string title, string author, int numberOfBooks,int numberOfPages, BookType bookType)
         {
             this.title = title;
             this.author = author;
             this.numberOfBooks = numberOfBooks;
             this.numberOfPages = numberOfPages;
+            this.BookType = bookType;
         }
 
         protected Book()
@@ -65,6 +82,10 @@ namespace BookStore
 
         }
 
+
+        #endregion
+
+        #region Methods
         public void countSumOfPagesOfAllBooks(string name)
         {
             Console.WriteLine("{0}, your book has {1} pages",name, this.numberOfPages );
@@ -92,6 +113,10 @@ namespace BookStore
         {
             return "Book can't have less than 0 pages. Info from event";
         }
+
+
+        #endregion
+
 
     }
 }
