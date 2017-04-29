@@ -42,7 +42,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Finanse.cs" />
+    <Compile Include="Klient.cs" />
     <Compile Include="Operacja.cs" />
+    <Compile Include="Osoba.cs" />
     <Compile Include="Person.cs" />
     <Compile Include="Pracownik.cs" />
     <Compile Include="Program.cs" />

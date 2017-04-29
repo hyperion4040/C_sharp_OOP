@@ -2,17 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f61a72cb-3855-4329-a72d-70e08b2bc97a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BookStore/BookType.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BookStore/bin/Debug/BookStore.dll" afterPath="$PROJECT_DIR$/BookStore/bin/Debug/BookStore.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BookStore/bin/Debug/BookStore.dll.mdb" afterPath="$PROJECT_DIR$/BookStore/bin/Debug/BookStore.dll.mdb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BookStore/obj/Debug/BookStore.dll" afterPath="$PROJECT_DIR$/BookStore/obj/Debug/BookStore.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BookStore/obj/Debug/BookStore.dll.mdb" afterPath="$PROJECT_DIR$/BookStore/obj/Debug/BookStore.dll.mdb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BookStoreMain/bin/Debug/BookStore.dll" afterPath="$PROJECT_DIR$/BookStoreMain/bin/Debug/BookStore.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BookStoreMain/bin/Debug/BookStore.dll.mdb" afterPath="$PROJECT_DIR$/BookStoreMain/bin/Debug/BookStore.dll.mdb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ConsoleApplication/Klient.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ConsoleApplication/Osoba.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ConsoleApplication/bin/Debug/ConsoleApplication.exe" afterPath="$PROJECT_DIR$/ConsoleApplication/bin/Debug/ConsoleApplication.exe" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ConsoleApplication/bin/Debug/ConsoleApplication.exe.mdb" afterPath="$PROJECT_DIR$/ConsoleApplication/bin/Debug/ConsoleApplication.exe.mdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ConsoleApplication/obj/Debug/ConsoleApplication.exe" afterPath="$PROJECT_DIR$/ConsoleApplication/obj/Debug/ConsoleApplication.exe" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ConsoleApplication/obj/Debug/ConsoleApplication.exe.mdb" afterPath="$PROJECT_DIR$/ConsoleApplication/obj/Debug/ConsoleApplication.exe.mdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WSB/bin/Debug/ConsoleApplication.exe" afterPath="$PROJECT_DIR$/WSB/bin/Debug/ConsoleApplication.exe" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WSB/bin/Debug/ConsoleApplication.exe.mdb" afterPath="$PROJECT_DIR$/WSB/bin/Debug/ConsoleApplication.exe.mdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WSB/bin/Debug/WSB.exe" afterPath="$PROJECT_DIR$/WSB/bin/Debug/WSB.exe" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WSB/bin/Debug/WSB.exe.mdb" afterPath="$PROJECT_DIR$/WSB/bin/Debug/WSB.exe.mdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WSB/obj/Debug/WSB.exe" afterPath="$PROJECT_DIR$/WSB/obj/Debug/WSB.exe" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WSB/obj/Debug/WSB.exe.mdb" afterPath="$PROJECT_DIR$/WSB/obj/Debug/WSB.exe.mdb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.EmptyProject/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.EmptyProject/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BookStore/Book.cs" afterPath="$PROJECT_DIR$/BookStore/Book.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BookStore/BookStore.csproj" afterPath="$PROJECT_DIR$/BookStore/BookStore.csproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BookStore/HighFantasyBook.cs" afterPath="$PROJECT_DIR$/BookStore/HighFantasyBook.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ConsoleApplication/ConsoleApplication.csproj" afterPath="$PROJECT_DIR$/ConsoleApplication/ConsoleApplication.csproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ConsoleApplication/Operacja.cs" afterPath="$PROJECT_DIR$/ConsoleApplication/Operacja.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ConsoleApplication/Pracownik.cs" afterPath="$PROJECT_DIR$/ConsoleApplication/Pracownik.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WSB/Program.cs" afterPath="$PROJECT_DIR$/WSB/Program.cs" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,71 +30,109 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="IBook.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BookStore/IBook.cs">
+      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/WSB/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+            <state relative-caret-position="373">
+              <caret line="90" column="62" lean-forward="false" selection-start-line="90" selection-start-column="62" selection-end-line="90" selection-end-column="62" />
               <folding>
-                <marker date="1493063798966" expanded="true" signature="48:220" ph="{...}" />
+                <marker date="1493489591111" expanded="true" signature="6:150" ph="..." />
+                <marker date="1493489591111" expanded="true" signature="165:2820" ph="{...}" />
+                <marker date="1493489591111" expanded="true" signature="194:2818" ph="{...}" />
+                <marker date="1493489591111" expanded="true" signature="247:2570" ph="{...}" />
+                <marker date="1493489591111" expanded="false" signature="270:986" ph="utworzenieObiektu do .NET 2.0" />
+                <marker date="1493489591111" expanded="true" signature="308:961" ph="/* var pracownik = new Pracownik(); ... */" />
+                <marker date="1493489591111" expanded="false" signature="1003:2035" ph="utworzenie obiektu od .NET 3.0" />
+                <marker date="1493489591111" expanded="true" signature="1043:2011" ph="/* var pracownik2 = new Pracownik() ... */" />
+                <marker date="1493489591111" expanded="true" signature="2137:2375" ph="{...}" />
+                <marker date="1493489591111" expanded="true" signature="2268:2361" ph="{...}" />
+                <marker date="1493489591111" expanded="true" signature="2378:2531" ph="/* Console.WriteLine(p2.imie + &quot; &quot; + p2.nazwisko); ... */" />
+                <marker date="1493489591111" expanded="true" signature="2614:2810" ph="{...}" />
+                <marker date="1493489591111" expanded="true" signature="2661:2755" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Book.cs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/BookStore/Book.cs">
+      <file leaf-file-name="Pracownik.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ConsoleApplication/Pracownik.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="3500">
+              <caret line="181" column="37" lean-forward="false" selection-start-line="181" selection-start-column="37" selection-end-line="181" selection-end-column="37" />
               <folding>
-                <marker date="1493110835143" expanded="true" signature="36:2534" ph="{...}" />
-                <marker date="1493110835143" expanded="true" signature="70:2532" ph="{...}" />
-                <marker date="1493110835143" expanded="true" signature="86:455" ph="Fields" />
-                <marker date="1493110835143" expanded="false" signature="465:1360" ph="Accesors" />
-                <marker date="1493110835143" expanded="false" signature="514:619" ph="{...}" />
-                <marker date="1493110835143" expanded="true" signature="648:737" ph="{...}" />
-                <marker date="1493110835143" expanded="true" signature="767:858" ph="{...}" />
-                <marker date="1493110835143" expanded="true" signature="892:1212" ph="{...}" />
-                <marker date="1493110835143" expanded="true" signature="960:1202" ph="{...}" />
-                <marker date="1493110835143" expanded="true" signature="1069:1188" ph="{...}" />
-                <marker date="1493110835143" expanded="true" signature="1245:1340" ph="{...}" />
-                <marker date="1493110835143" expanded="false" signature="1370:1783" ph="Constructors" />
-                <marker date="1493110835143" expanded="true" signature="1495:1715" ph="{...}" />
-                <marker date="1493110835143" expanded="true" signature="1741:1762" ph="{...}" />
-                <marker date="1493110835143" expanded="false" signature="1793:2524" ph="Methods" />
-                <marker date="1493110835143" expanded="true" signature="1867:1977" ph="{...}" />
-                <marker date="1493110835143" expanded="true" signature="2013:2083" ph="{...}" />
-                <marker date="1493110835143" expanded="true" signature="2134:2372" ph="{...}" />
-                <marker date="1493110835143" expanded="true" signature="2200:2264" ph="{...}" />
-                <marker date="1493110835143" expanded="true" signature="2281:2362" ph="{...}" />
-                <marker date="1493110835143" expanded="true" signature="2410:2503" ph="{...}" />
+                <marker date="1493489246384" expanded="false" signature="6:173" ph="..." />
+                <marker date="1493489246384" expanded="true" signature="233:4410" ph="{...}" />
+                <marker date="1493489246384" expanded="true" signature="270:4408" ph="{...}" />
+                <marker date="1493489246384" expanded="true" signature="285:390" ph="POLA STATYCZNE" />
+                <marker date="1493489246384" expanded="true" signature="400:605" ph="Pola obiektowe" />
+                <marker date="1493489246384" expanded="true" signature="615:1841" ph="Konstruktory" />
+                <marker date="1493489246384" expanded="true" signature="691:1122" ph="{...}" />
+                <marker date="1493489246384" expanded="true" signature="881:1112" ph="{...}" />
+                <marker date="1493489246384" expanded="true" signature="940:1055" ph="{...}" />
+                <marker date="1493489246384" expanded="true" signature="1227:1303" ph="{...}" />
+                <marker date="1493489246384" expanded="true" signature="1463:1532" ph="{...}" />
+                <marker date="1493489246384" expanded="true" signature="1692:1817" ph="{...}" />
+                <marker date="1493489246384" expanded="true" signature="1851:2118" ph="Destruktor" />
+                <marker date="1493489246384" expanded="true" signature="1891:2098" ph="{...}" />
+                <marker date="1493489246384" expanded="true" signature="2149:2311" ph="{...}" />
+                <marker date="1493489246384" expanded="true" signature="2368:2430" ph="{...}" />
+                <marker date="1493489246384" expanded="true" signature="2503:2644" ph="{...}" />
+                <marker date="1493489246384" expanded="true" signature="2712:2991" ph="{...}" />
+                <marker date="1493489246384" expanded="true" signature="2994:3104" ph="/* public DateTime getDataZatrudnienia() ... */" />
+                <marker date="1493489246384" expanded="true" signature="3156:3454" ph="{...}" />
+                <marker date="1493489246384" expanded="true" signature="3267:3357" ph="{...}" />
+                <marker date="1493489246384" expanded="true" signature="3374:3444" ph="{...}" />
+                <marker date="1493489246384" expanded="true" signature="3491:3551" ph="{...}" />
+                <marker date="1493489246384" expanded="true" signature="3561:3841" ph="metody" />
+                <marker date="1493489246384" expanded="true" signature="3629:3820" ph="{...}" />
+                <marker date="1493489246384" expanded="true" signature="3642:3725" ph="/* foreach (var operacje in operacja) ... */" />
+                <marker date="1493489246384" expanded="true" signature="3884:4009" ph="{...}" />
+                <marker date="1493489246384" expanded="true" signature="4044:4153" ph="{...}" />
+                <marker date="1493489246384" expanded="true" signature="4190:4273" ph="{...}" />
+                <marker date="1493489246384" expanded="true" signature="4312:4401" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BookType.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BookStore/BookType.cs">
+      <file leaf-file-name="Operacja.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ConsoleApplication/Operacja.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="4" column="27" lean-forward="false" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+            <state relative-caret-position="280">
+              <caret line="14" column="79" lean-forward="false" selection-start-line="14" selection-start-column="79" selection-end-line="14" selection-end-column="79" />
               <folding>
-                <marker date="1493110835155" expanded="true" signature="19:88" ph="{...}" />
-                <marker date="1493110835155" expanded="true" signature="46:86" ph="{...}" />
+                <marker date="1493488067141" expanded="true" signature="59:345" ph="{...}" />
+                <marker date="1493488067141" expanded="true" signature="87:343" ph="{...}" />
+                <marker date="1493488067141" expanded="true" signature="237:337" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HighFantasyBook.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BookStore/HighFantasyBook.cs">
+      <file leaf-file-name="Klient.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ConsoleApplication/Klient.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state relative-caret-position="40">
+              <caret line="2" column="31" lean-forward="false" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
               <folding>
-                <marker date="1493110835151" expanded="true" signature="19:83" ph="{...}" />
-                <marker date="1493110835151" expanded="true" signature="68:81" ph="{...}" />
+                <marker date="1493488067149" expanded="true" signature="28:185" ph="{...}" />
+                <marker date="1493488067149" expanded="true" signature="62:106" ph="{...}" />
+                <marker date="1493488067149" expanded="true" signature="126:183" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Osoba.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ConsoleApplication/Osoba.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="167">
+              <caret line="15" column="24" lean-forward="false" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+              <folding>
+                <marker date="1493489246388" expanded="true" signature="6:68" ph="..." />
+                <marker date="1493489246388" expanded="true" signature="98:518" ph="{...}" />
+                <marker date="1493489246388" expanded="true" signature="123:516" ph="{...}" />
+                <marker date="1493489246388" expanded="true" signature="373:506" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -121,13 +165,10 @@
         <option value="$PROJECT_DIR$/Klasy/Program.cs" />
         <option value="$PROJECT_DIR$/ConsoleApplication/Program.cs" />
         <option value="$PROJECT_DIR$/ConsoleApplication/Properties/AssemblyInfo.cs" />
-        <option value="$PROJECT_DIR$/ConsoleApplication/Operacja.cs" />
-        <option value="$PROJECT_DIR$/ConsoleApplication/Pracownik.cs" />
         <option value="$PROJECT_DIR$/Student/Class1.cs" />
         <option value="$PROJECT_DIR$/Zoo/Class1.cs" />
         <option value="$PROJECT_DIR$/Zoo/Animal.cs" />
         <option value="$PROJECT_DIR$/ConsoleApplication/Finanse.cs" />
-        <option value="$PROJECT_DIR$/WSB/Program.cs" />
         <option value="$PROJECT_DIR$/ConsoleApplication/UmowaTyp.cs" />
         <option value="$PROJECT_DIR$/Egzaminacyjne/Program.cs" />
         <option value="$PROJECT_DIR$/BookStore/Class1.cs" />
@@ -139,6 +180,12 @@
         <option value="$PROJECT_DIR$/BookStore/BookType.cs" />
         <option value="$PROJECT_DIR$/BookStore/Book.cs" />
         <option value="$PROJECT_DIR$/BookStore/HighFantasyBook.cs" />
+        <option value="$PROJECT_DIR$/BookStore/BookStore.cs" />
+        <option value="$PROJECT_DIR$/ConsoleApplication/Operacja.cs" />
+        <option value="$PROJECT_DIR$/ConsoleApplication/Klient.cs" />
+        <option value="$PROJECT_DIR$/ConsoleApplication/Osoba.cs" />
+        <option value="$PROJECT_DIR$/ConsoleApplication/Pracownik.cs" />
+        <option value="$PROJECT_DIR$/WSB/Program.cs" />
       </list>
     </option>
   </component>
@@ -187,6 +234,20 @@
               <option name="myItemId" value="EmptyProject (5 projects)" />
               <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WSB" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EmptyProject (5 projects)" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -198,7 +259,7 @@
               <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="BookStore" />
+              <option name="myItemId" value="ConsoleApplication" />
               <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
             </PATH_ELEMENT>
           </PATH>
@@ -268,12 +329,12 @@
       <method />
     </configuration>
     <configuration default="false" name="WSB" type="DotNetProject" factoryName=".NET Project" temporary="true">
-      <option name="PROJECT_PATH" value="$PROJECT_DIR$/BookStoreMain/BookStoreMain.csproj" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/WSB/WSB.csproj" />
       <option name="PROJECT_KIND" value="Console" />
       <option name="PROJECT_TFM" value=".NETFramework,Version=v4.5" />
-      <option name="EXE_PATH" value="$PROJECT_DIR$/BookStoreMain/bin/Debug/BookStoreMain.exe" />
+      <option name="EXE_PATH" value="$PROJECT_DIR$/WSB/bin/Debug/WSB.exe" />
       <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BookStoreMain/bin/Debug" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/WSB/bin/Debug" />
       <option name="USE_MONO" value="0" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <envs />
@@ -412,7 +473,12 @@
       <workItem from="1492810827003" duration="1818000" />
       <workItem from="1492982429383" duration="1445000" />
       <workItem from="1493062298094" duration="2125000" />
-      <workItem from="1493110418593" duration="417000" />
+      <workItem from="1493110418593" duration="1161000" />
+      <workItem from="1493138343034" duration="434000" />
+      <workItem from="1493306213470" duration="1519000" />
+      <workItem from="1493311364239" duration="24000" />
+      <workItem from="1493311508361" duration="1611000" />
+      <workItem from="1493481925949" duration="7665000" />
     </task>
     <task id="LOCAL-00001" summary="Added a throw new exception.">
       <created>1489268063395</created>
@@ -505,11 +571,18 @@
       <option name="project" value="LOCAL" />
       <updated>1492983862022</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Added enum to Book class">
+      <created>1493110854424</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1493110854424</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49236000" />
+    <option name="totallyTimeSpent" value="61233000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -526,14 +599,14 @@
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884902" sideWeight="0.5119139" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32817337" sideWeight="0.51474106" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32817337" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32817337" sideWeight="0.48808607" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32817337" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32817337" sideWeight="0.48525897" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Change Signature" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27171314" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29561752" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32817337" sideWeight="0.49730977" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -569,28 +642,14 @@
     <MESSAGE value="Added accessors to struct" />
     <MESSAGE value="Added delegates and events" />
     <MESSAGE value="Added new classes, inheritage and interface." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added new classes, inheritage and interface." />
+    <MESSAGE value="Added enum to Book class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added enum to Book class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Klasy/Punkt.cs" />
-    <entry file="file://$PROJECT_DIR$/ConsoleApplication/Pracownik.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="936">
-          <caret line="52" column="39" lean-forward="true" selection-start-line="52" selection-start-column="39" selection-end-line="52" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Polymorphism/Developer.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="43" lean-forward="false" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Polymorphism/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -753,13 +812,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ConsoleApplication/Person.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Klasy/Properties/Lion.cs" />
     <entry file="file://$PROJECT_DIR$/ConsoleApplication/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
@@ -773,31 +825,10 @@
     <entry file="file://$PROJECT_DIR$/Klasy/Punkt.cs" />
     <entry file="file://$PROJECT_DIR$/Klasy/Program.cs" />
     <entry file="file://$PROJECT_DIR$/Zoo/Animal.cs" />
-    <entry file="file://$PROJECT_DIR$/ConsoleApplication/Operacja.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="32" lean-forward="false" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ConsoleApplication/UmowaTyp.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="3" column="11" lean-forward="false" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ConsoleApplication/Finanse.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ConsoleApplication/Pracownik.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2122">
-          <caret line="117" column="1" lean-forward="false" selection-start-line="117" selection-start-column="1" selection-end-line="117" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -817,13 +848,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BookStore/Program.cs" />
-    <entry file="file://$PROJECT_DIR$/WSB/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="11" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BookStoreMain/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -845,24 +869,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BookStore/IBook.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-          <folding>
-            <marker date="1493063798966" expanded="true" signature="48:220" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/BookStore/BookStore.cs" />
     <entry file="file://$PROJECT_DIR$/BookStore/HighFantasyBook.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <marker date="1493110835151" expanded="true" signature="19:83" ph="{...}" />
-            <marker date="1493110835151" expanded="true" signature="68:81" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -870,39 +881,172 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
           <caret line="4" column="27" lean-forward="false" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
-          <folding>
-            <marker date="1493110835155" expanded="true" signature="19:88" ph="{...}" />
-            <marker date="1493110835155" expanded="true" signature="46:86" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BookStore/Book.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="367">
+          <caret line="23" column="34" lean-forward="false" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
           <folding>
-            <marker date="1493110835143" expanded="true" signature="36:2534" ph="{...}" />
             <marker date="1493110835143" expanded="true" signature="70:2532" ph="{...}" />
             <marker date="1493110835143" expanded="true" signature="86:455" ph="Fields" />
-            <marker date="1493110835143" expanded="false" signature="465:1360" ph="Accesors" />
-            <marker date="1493110835143" expanded="false" signature="514:619" ph="{...}" />
+            <marker date="1493110835143" expanded="true" signature="465:1360" ph="Accesors" />
+            <marker date="1493110835143" expanded="true" signature="514:619" ph="{...}" />
             <marker date="1493110835143" expanded="true" signature="648:737" ph="{...}" />
             <marker date="1493110835143" expanded="true" signature="767:858" ph="{...}" />
             <marker date="1493110835143" expanded="true" signature="892:1212" ph="{...}" />
             <marker date="1493110835143" expanded="true" signature="960:1202" ph="{...}" />
             <marker date="1493110835143" expanded="true" signature="1069:1188" ph="{...}" />
             <marker date="1493110835143" expanded="true" signature="1245:1340" ph="{...}" />
-            <marker date="1493110835143" expanded="false" signature="1370:1783" ph="Constructors" />
+            <marker date="1493110835143" expanded="true" signature="1370:1783" ph="Constructors" />
             <marker date="1493110835143" expanded="true" signature="1495:1715" ph="{...}" />
             <marker date="1493110835143" expanded="true" signature="1741:1762" ph="{...}" />
-            <marker date="1493110835143" expanded="false" signature="1793:2524" ph="Methods" />
+            <marker date="1493110835143" expanded="true" signature="1793:2524" ph="Methods" />
             <marker date="1493110835143" expanded="true" signature="1867:1977" ph="{...}" />
             <marker date="1493110835143" expanded="true" signature="2013:2083" ph="{...}" />
             <marker date="1493110835143" expanded="true" signature="2134:2372" ph="{...}" />
             <marker date="1493110835143" expanded="true" signature="2200:2264" ph="{...}" />
             <marker date="1493110835143" expanded="true" signature="2281:2362" ph="{...}" />
             <marker date="1493110835143" expanded="true" signature="2410:2503" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BookStore/IBook.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding>
+            <marker date="1493063798966" expanded="true" signature="19:222" ph="{...}" />
+            <marker date="1493063798966" expanded="true" signature="48:220" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConsoleApplication/Finanse.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-287">
+          <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+          <folding>
+            <marker date="1492545477116" expanded="true" signature="70:1029" ph="{...}" />
+            <marker date="1492545477116" expanded="true" signature="105:1027" ph="{...}" />
+            <marker date="1492545477116" expanded="true" signature="276:635" ph="{...}" />
+            <marker date="1492545477116" expanded="true" signature="342:622" ph="{...}" />
+            <marker date="1492545477116" expanded="true" signature="374:450" ph="{...}" />
+            <marker date="1492545477116" expanded="true" signature="471:608" ph="{...}" />
+            <marker date="1492545477116" expanded="true" signature="666:757" ph="{...}" />
+            <marker date="1492545477116" expanded="true" signature="790:889" ph="{...}" />
+            <marker date="1492545477116" expanded="true" signature="922:1021" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConsoleApplication/Person.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding>
+            <marker date="1490381282229" expanded="true" signature="28:73" ph="{...}" />
+            <marker date="1490381282229" expanded="true" signature="58:71" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConsoleApplication/Operacja.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="79" lean-forward="false" selection-start-line="14" selection-start-column="79" selection-end-line="14" selection-end-column="79" />
+          <folding>
+            <marker date="1493488067141" expanded="true" signature="59:345" ph="{...}" />
+            <marker date="1493488067141" expanded="true" signature="87:343" ph="{...}" />
+            <marker date="1493488067141" expanded="true" signature="237:337" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConsoleApplication/Klient.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="31" lean-forward="false" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+          <folding>
+            <marker date="1493488067149" expanded="true" signature="28:185" ph="{...}" />
+            <marker date="1493488067149" expanded="true" signature="62:106" ph="{...}" />
+            <marker date="1493488067149" expanded="true" signature="126:183" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConsoleApplication/Osoba.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="15" column="24" lean-forward="false" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+          <folding>
+            <marker date="1493489246388" expanded="true" signature="6:68" ph="..." />
+            <marker date="1493489246388" expanded="true" signature="98:518" ph="{...}" />
+            <marker date="1493489246388" expanded="true" signature="123:516" ph="{...}" />
+            <marker date="1493489246388" expanded="true" signature="373:506" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConsoleApplication/Pracownik.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3500">
+          <caret line="181" column="37" lean-forward="false" selection-start-line="181" selection-start-column="37" selection-end-line="181" selection-end-column="37" />
+          <folding>
+            <marker date="1493489246384" expanded="false" signature="6:173" ph="..." />
+            <marker date="1493489246384" expanded="true" signature="233:4410" ph="{...}" />
+            <marker date="1493489246384" expanded="true" signature="270:4408" ph="{...}" />
+            <marker date="1493489246384" expanded="true" signature="285:390" ph="POLA STATYCZNE" />
+            <marker date="1493489246384" expanded="true" signature="400:605" ph="Pola obiektowe" />
+            <marker date="1493489246384" expanded="true" signature="615:1841" ph="Konstruktory" />
+            <marker date="1493489246384" expanded="true" signature="691:1122" ph="{...}" />
+            <marker date="1493489246384" expanded="true" signature="881:1112" ph="{...}" />
+            <marker date="1493489246384" expanded="true" signature="940:1055" ph="{...}" />
+            <marker date="1493489246384" expanded="true" signature="1227:1303" ph="{...}" />
+            <marker date="1493489246384" expanded="true" signature="1463:1532" ph="{...}" />
+            <marker date="1493489246384" expanded="true" signature="1692:1817" ph="{...}" />
+            <marker date="1493489246384" expanded="true" signature="1851:2118" ph="Destruktor" />
+            <marker date="1493489246384" expanded="true" signature="1891:2098" ph="{...}" />
+            <marker date="1493489246384" expanded="true" signature="2149:2311" ph="{...}" />
+            <marker date="1493489246384" expanded="true" signature="2368:2430" ph="{...}" />
+            <marker date="1493489246384" expanded="true" signature="2503:2644" ph="{...}" />
+            <marker date="1493489246384" expanded="true" signature="2712:2991" ph="{...}" />
+            <marker date="1493489246384" expanded="true" signature="2994:3104" ph="/* public DateTime getDataZatrudnienia() ... */" />
+            <marker date="1493489246384" expanded="true" signature="3156:3454" ph="{...}" />
+            <marker date="1493489246384" expanded="true" signature="3267:3357" ph="{...}" />
+            <marker date="1493489246384" expanded="true" signature="3374:3444" ph="{...}" />
+            <marker date="1493489246384" expanded="true" signature="3491:3551" ph="{...}" />
+            <marker date="1493489246384" expanded="true" signature="3561:3841" ph="metody" />
+            <marker date="1493489246384" expanded="true" signature="3629:3820" ph="{...}" />
+            <marker date="1493489246384" expanded="true" signature="3642:3725" ph="/* foreach (var operacje in operacja) ... */" />
+            <marker date="1493489246384" expanded="true" signature="3884:4009" ph="{...}" />
+            <marker date="1493489246384" expanded="true" signature="4044:4153" ph="{...}" />
+            <marker date="1493489246384" expanded="true" signature="4190:4273" ph="{...}" />
+            <marker date="1493489246384" expanded="true" signature="4312:4401" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WSB/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="90" column="62" lean-forward="false" selection-start-line="90" selection-start-column="62" selection-end-line="90" selection-end-column="62" />
+          <folding>
+            <marker date="1493489591111" expanded="true" signature="6:150" ph="..." />
+            <marker date="1493489591111" expanded="true" signature="165:2820" ph="{...}" />
+            <marker date="1493489591111" expanded="true" signature="194:2818" ph="{...}" />
+            <marker date="1493489591111" expanded="true" signature="247:2570" ph="{...}" />
+            <marker date="1493489591111" expanded="false" signature="270:986" ph="utworzenieObiektu do .NET 2.0" />
+            <marker date="1493489591111" expanded="true" signature="308:961" ph="/* var pracownik = new Pracownik(); ... */" />
+            <marker date="1493489591111" expanded="false" signature="1003:2035" ph="utworzenie obiektu od .NET 3.0" />
+            <marker date="1493489591111" expanded="true" signature="1043:2011" ph="/* var pracownik2 = new Pracownik() ... */" />
+            <marker date="1493489591111" expanded="true" signature="2137:2375" ph="{...}" />
+            <marker date="1493489591111" expanded="true" signature="2268:2361" ph="{...}" />
+            <marker date="1493489591111" expanded="true" signature="2378:2531" ph="/* Console.WriteLine(p2.imie + &quot; &quot; + p2.nazwisko); ... */" />
+            <marker date="1493489591111" expanded="true" signature="2614:2810" ph="{...}" />
+            <marker date="1493489591111" expanded="true" signature="2661:2755" ph="{...}" />
           </folding>
         </state>
       </provider>

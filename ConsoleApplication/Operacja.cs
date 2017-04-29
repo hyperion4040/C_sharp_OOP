@@ -8,5 +8,11 @@ namespace Firma.Finanse //ConsoleApplication
         public DateTime data;
         public string tytul;
         public bool rozliczneie;
+
+
+        ~Operacja()
+        {
+            Console.WriteLine("Usunięto obiekt operacja" + this.GetHashCode());
+        }
     }
 }

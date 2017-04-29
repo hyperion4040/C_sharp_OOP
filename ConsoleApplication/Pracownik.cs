@@ -8,23 +8,81 @@ using Firma.Pracownicy.Finanse;
 
 namespace Firma.Pracownicy //Pracownicy.ConsoleApplication
 {
-    public class Pracownik
+    public class Pracownik : Osoba
     {
         #region POLA STATYCZNE
 
         static float dodatekWakacyjny = 1000;
 
+
         #endregion POLA STATYCZNE
 
         #region Pola obiektowe
 
-        private long nrPracownika;
-        private DateTime dataZatrudnienia;
+       // private long nrPracownika;
+
         private UmowaTyp typUmowa;
-        public String imie;
-        public String nazwisko;
-        public List<Operacja> operacja;
+
+        private DateTime dataZatrudnienia;
+
         public Wynagrodzenie wynagrodzenie;
+
+        #endregion
+
+        #region Konstruktory
+
+        public Pracownik(string imie, string nazwisko)
+        {
+            this.nr = Guid.NewGuid();
+            this.imie = imie;
+            var niedozwoloneZnaki = "%&*^!".ToCharArray();
+
+            foreach (var znak in niedozwoloneZnaki)
+            {
+                if (nazwisko.Contains(znak))
+                {
+                    throw new Exception("Nazwisko posiada niedozwolne znaki");
+                }
+                this.nazwisko = nazwisko;
+
+            }
+        }
+
+        public Pracownik( string imie, string nazwisko,DateTime dataZatrudnienia) : this(imie,nazwisko)
+        {
+
+            this.dataZatrudnienia = dataZatrudnienia;
+         }
+
+
+        public Pracownik( string imie, string nazwisko,DateTime dataZatrudnienia , Wynagrodzenie wynagrodzenie)
+        :this(imie,nazwisko,dataZatrudnienia)
+        {
+
+            this.wynagrodzenie = wynagrodzenie;
+        }
+
+        public Pracownik(string imie, string nazwisko, DateTime dataZatrudnienia, float zasadnicze,float premia)
+        :this(imie,nazwisko,dataZatrudnienia)
+        {
+
+            this.wynagrodzenie.Zasadnicze = zasadnicze;
+            this.wynagrodzenie.Premia = premia;
+        }
+
+
+
+
+
+        #endregion
+
+        #region Destruktor
+
+        ~Pracownik()
+        {
+            Console.WriteLine("Usunięto obiekt " + this.GetHashCode());
+            //Console.ReadLine(); W visual studio sprawi, że okno nie zamknie się od razu po uruchomieniu programu
+        }
 
         #endregion
 
@@ -114,5 +172,17 @@ namespace Firma.Pracownicy //Pracownicy.ConsoleApplication
 
 
         }
+
+        public Guid NumerPracownika
+        {
+            get { return nr; }
+            set { nr = value; }
+        }
+
+        public override string dane()
+        {
+            return base.dane() + ", " + dataZatrudnienia.ToString();
+        }
+
     }
 }
