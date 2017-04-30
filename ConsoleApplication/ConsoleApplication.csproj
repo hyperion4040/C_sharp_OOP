@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Finanse.cs" />
+    <Compile Include="IIstota.cs" />
     <Compile Include="Klient.cs" />
     <Compile Include="Operacja.cs" />
     <Compile Include="Osoba.cs" />

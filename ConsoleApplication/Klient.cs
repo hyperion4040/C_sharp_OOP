@@ -1,13 +1,34 @@
-﻿namespace ConsoleApplication
+﻿using System;
+
+namespace ConsoleApplication
 {
     public class Klient : Osoba
     {
 
-        private KlientTyp typ;
+        protected KlientTyp typ;
+
+        public KlientTyp Typ
+        {
+            get { return typ; }
+            set { typ = value; }
+        }
+
+        public Klient(string imie, string nazwisko, KlientTyp typ) : base(imie, nazwisko)
+        {
+            this.typ = typ;
+        }
+
+
+        public override string dane()
+        {
+            return base.dane() + ", " + typ;
+        }
     }
 
-    enum KlientTyp
+    public enum KlientTyp
     {
         firma, indywidualny, instytucjonalny
     }
+
+
 }

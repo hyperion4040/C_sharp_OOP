@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.Specialized;
 using System.Globalization;
 using System.Linq;
 using ConsoleApplication;
@@ -8,7 +9,7 @@ using Firma.Pracownicy.Finanse;
 
 namespace Firma.Pracownicy //Pracownicy.ConsoleApplication
 {
-    public class Pracownik : Osoba
+    public class Pracownik : Osoba, IEquatable<Pracownik>, IComparable<Pracownik>
     {
         #region POLA STATYCZNE
 
@@ -27,13 +28,15 @@ namespace Firma.Pracownicy //Pracownicy.ConsoleApplication
 
         public Wynagrodzenie wynagrodzenie;
 
+        public SortedDictionary<string, dynamic> zadania;
+
         #endregion
 
         #region Konstruktory
 
         public Pracownik(string imie, string nazwisko)
         {
-            this.nr = Guid.NewGuid();
+
             this.imie = imie;
             var niedozwoloneZnaki = "%&*^!".ToCharArray();
 
@@ -78,18 +81,50 @@ namespace Firma.Pracownicy //Pracownicy.ConsoleApplication
 
         #region Destruktor
 
+        public  bool Equals(Pracownik other)
+        {
+            var wynagrodzenieP1 = this.wynagrodzenie.Zasadnicze + this.wynagrodzenie.Premia;
+            var wynagrodzenieP2 = other.wynagrodzenie.Zasadnicze + other.wynagrodzenie.Premia;
+            return wynagrodzenieP1 == wynagrodzenieP2;
+        }
+
+        public int CompareTo(Pracownik other)
+        {
+
+            var wynagrodzenieP1 = this.wynagrodzenie.Zasadnicze + this.wynagrodzenie.Premia;
+            var wynagrodzenieP2 = other.wynagrodzenie.Zasadnicze + other.wynagrodzenie.Premia;
+            if (wynagrodzenieP1 > wynagrodzenieP2)
+            {
+                return 1;
+            }
+            else
+            {
+                if (wynagrodzenieP1 == wynagrodzenieP2)
+                {
+                    return 0;
+                }
+                else
+                {
+                    return -1;
+                }
+            }
+
+        }
+
         ~Pracownik()
         {
             Console.WriteLine("Usunięto obiekt " + this.GetHashCode());
             //Console.ReadLine(); W visual studio sprawi, że okno nie zamknie się od razu po uruchomieniu programu
         }
 
+
+
         #endregion
 
 
 
 
-        public Pracownik()
+        public Pracownik() :base()
         {
             dataZatrudnienia = new DateTime(2012, 3, 11);
 //            typUmowa = UmowaTyp.kontrakt;
@@ -184,5 +219,24 @@ namespace Firma.Pracownicy //Pracownicy.ConsoleApplication
             return base.dane() + ", " + dataZatrudnienia.ToString();
         }
 
+        public static bool operator ==(Pracownik p1, Pracownik p2)
+        {
+//             var  pensja1 = p1.wynagrodzenie.Zasadnicze + p1.wynagrodzenie.Premia;
+//            var pensja2 = p2.wynagrodzenie.Zasadnicze + p2.wynagrodzenie.Premia;
+//            return pensja1 == pensja2;
+             return p1.Equals(p2);
+
+        }
+
+        public static bool operator !=(Pracownik p1, Pracownik p2)
+        {
+            return !p1.Equals(p2);
+        }
+
+
+        public override int GetHashCode()
+        {
+            return wynagrodzenie.GetHashCode();
+        }
     }
 }
