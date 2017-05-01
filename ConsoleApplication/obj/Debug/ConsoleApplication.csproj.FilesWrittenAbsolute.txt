@@ -1,5 +1,0 @@
-/home/hyperion/Dokumenty/Projects/RiderProjects/EmptyProject/ConsoleApplication/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
-/home/hyperion/Dokumenty/Projects/RiderProjects/EmptyProject/ConsoleApplication/bin/Debug/ConsoleApplication.exe.mdb
-/home/hyperion/Dokumenty/Projects/RiderProjects/EmptyProject/ConsoleApplication/bin/Debug/ConsoleApplication.exe
-/home/hyperion/Dokumenty/Projects/RiderProjects/EmptyProject/ConsoleApplication/obj/Debug/ConsoleApplication.exe
-/home/hyperion/Dokumenty/Projects/RiderProjects/EmptyProject/ConsoleApplication/obj/Debug/ConsoleApplication.exe.mdb
