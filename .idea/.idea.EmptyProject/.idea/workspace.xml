@@ -1,38 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f61a72cb-3855-4329-a72d-70e08b2bc97a" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ConsoleApplication/ConsoleApplication.csproj" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ConsoleApplication/Finanse.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ConsoleApplication/IIstota.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ConsoleApplication/Klient.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ConsoleApplication/Operacja.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ConsoleApplication/Osoba.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ConsoleApplication/Person.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ConsoleApplication/Pracownik.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ConsoleApplication/Program.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ConsoleApplication/Properties/AssemblyInfo.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ConsoleApplication/UmowaTyp.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ConsoleApplication/bin/Debug/ConsoleApplication.exe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ConsoleApplication/bin/Debug/ConsoleApplication.exe.mdb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ConsoleApplication/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ConsoleApplication/obj/Debug/ConsoleApplication.csproj.FilesWrittenAbsolute.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ConsoleApplication/obj/Debug/ConsoleApplication.exe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ConsoleApplication/obj/Debug/ConsoleApplication.exe.mdb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WSB/Program.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WSB/Properties/AssemblyInfo.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WSB/WSB.csproj" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WSB/bin/Debug/ConsoleApplication.exe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WSB/bin/Debug/ConsoleApplication.exe.mdb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WSB/bin/Debug/WSB.exe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WSB/bin/Debug/WSB.exe.mdb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WSB/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WSB/obj/Debug/WSB.csproj.FilesWrittenAbsolute.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WSB/obj/Debug/WSB.exe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WSB/obj/Debug/WSB.exe.mdb" afterPath="" />
+    <list default="true" id="f61a72cb-3855-4329-a72d-70e08b2bc97a" name="Default" comment="Grand refactoring, phase 1.">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.EmptyProject/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.EmptyProject/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.EmptyProject/riderModule.iml" afterPath="$PROJECT_DIR$/.idea/.idea.EmptyProject/riderModule.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EmptyProject.sln" afterPath="$PROJECT_DIR$/EmptyProject.sln" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -47,8 +17,8 @@
       <file leaf-file-name="Wynagrodzenie.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/FinanseFirma/Wynagrodzenie.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-548">
-              <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+            <state relative-caret-position="212">
+              <caret line="46" column="36" lean-forward="false" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
               <folding>
                 <marker date="1492545477116" expanded="true" signature="70:1029" ph="{...}" />
                 <marker date="1492545477116" expanded="true" signature="105:1027" ph="{...}" />
@@ -117,6 +87,7 @@
         <option value="$PROJECT_DIR$/WSB/Program.cs" />
         <option value="$PROJECT_DIR$/FinanseFirma/Properties/AssemblyInfo.cs" />
         <option value="$PROJECT_DIR$/EmptyProject.sln" />
+        <option value="$PROJECT_DIR$/FinanseFirma/Wynagrodzenie.cs" />
       </list>
     </option>
   </component>
@@ -386,7 +357,7 @@
       <workItem from="1493568241464" duration="7515000" />
       <workItem from="1493587062801" duration="204000" />
       <workItem from="1493587289521" duration="1870000" />
-      <workItem from="1493627696071" duration="916000" />
+      <workItem from="1493627696071" duration="1210000" />
     </task>
     <task id="LOCAL-00001" summary="Added a throw new exception.">
       <created>1489268063395</created>
@@ -500,11 +471,25 @@
       <option name="project" value="LOCAL" />
       <updated>1493575902785</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Grand refactoring, phase 1.">
+      <created>1493628674502</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1493628674502</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Grand refactoring, phase 2.">
+      <created>1493628895103</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1493628895103</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73529000" />
+    <option name="totallyTimeSpent" value="73823000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -517,6 +502,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -527,7 +513,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32972136" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Change Signature" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31633466" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31633466" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32817337" sideWeight="0.49730977" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -566,20 +552,15 @@
     <MESSAGE value="Added enum to Book class" />
     <MESSAGE value="Added few new classes and inheritage." />
     <MESSAGE value="Added interface, operator." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added interface, operator." />
+    <MESSAGE value="Grand refactoring, phase 1." />
+    <MESSAGE value="Grand refactoring, phase 2." />
+    <option name="LAST_COMMIT_MESSAGE" value="Grand refactoring, phase 2." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ConsoleApplication/Pracownik.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ConsoleApplication/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -871,10 +852,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/FinanseFirma/FinanseFirma.csproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/FinanseFirma/Wynagrodzenie.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-548">
-          <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+        <state relative-caret-position="212">
+          <caret line="46" column="36" lean-forward="false" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
           <folding>
             <marker date="1492545477116" expanded="true" signature="70:1029" ph="{...}" />
             <marker date="1492545477116" expanded="true" signature="105:1027" ph="{...}" />

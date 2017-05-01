@@ -1,5 +1,0 @@
-/home/hyperion/Dokumenty/Projects/RiderProjects/EmptyProject/EmptyProject/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
-/home/hyperion/Dokumenty/Projects/RiderProjects/EmptyProject/EmptyProject/bin/Debug/EmptyProject.dll.mdb
-/home/hyperion/Dokumenty/Projects/RiderProjects/EmptyProject/EmptyProject/bin/Debug/EmptyProject.dll
-/home/hyperion/Dokumenty/Projects/RiderProjects/EmptyProject/EmptyProject/obj/Debug/EmptyProject.dll
-/home/hyperion/Dokumenty/Projects/RiderProjects/EmptyProject/EmptyProject/obj/Debug/EmptyProject.dll.mdb

@@ -1,5 +1,0 @@
-/home/hyperion/Dokumenty/Projects/RiderProjects/EmptyProject/BookStore/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
-/home/hyperion/Dokumenty/Projects/RiderProjects/EmptyProject/BookStore/bin/Debug/BookStore.dll.mdb
-/home/hyperion/Dokumenty/Projects/RiderProjects/EmptyProject/BookStore/bin/Debug/BookStore.dll
-/home/hyperion/Dokumenty/Projects/RiderProjects/EmptyProject/BookStore/obj/Debug/BookStore.dll
-/home/hyperion/Dokumenty/Projects/RiderProjects/EmptyProject/BookStore/obj/Debug/BookStore.dll.mdb
